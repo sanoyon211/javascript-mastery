@@ -93,3 +93,15 @@ console.log("পরে:", a, b); // পরে: জাম আম
 // 4. একটা variable declare করো value ছাড়া, তারপর value দাও
 
 // তোমার উত্তর:
+
+const myName = "Noyon";
+let myAge = 30;
+const myCity = "Dhaka";
+
+myAge += 2; // জন্মদিনে ২ বছর বারালাম
+
+let num1 = 5; num2 = 10;
+[num1, num2] = [num2, num1]; // value swap
+
+let myVariable; // without value
+myVariable = 'Now i am assigned'; // i assigned value later
